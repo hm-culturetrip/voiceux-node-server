@@ -1,0 +1,22 @@
+{
+  "name": "voice-ux-endpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon googleHome.js",
+    "start-server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "actions-on-google": "^2.6.0",
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase": "^5.9.2",
+    "firebase-functions": "^2.2.1",
+    "nodemon": "^1.18.10"
+  }
+}
