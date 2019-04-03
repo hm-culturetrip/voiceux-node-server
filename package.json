@@ -2,10 +2,10 @@
   "name": "voice-ux-endpoint",
   "version": "1.0.0",
   "description": "",
-  "main": "googleHome.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon googleHome.js",
-    "start-server": "nodemon server.js"
+    "start": "nodemon server.js",
+    "start-server": "nodemon server-copy.js"
   },
   "author": "",
   "license": "ISC",
