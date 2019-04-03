@@ -12,7 +12,6 @@ class controller {
     axios.default.get(url)
       .then(result => result.data)
       .then((data) => {
-        console.log(data);
         const title = data.articleResources[0].title;
         res.send(title);
       });
@@ -23,9 +22,8 @@ class controller {
     return axios.default.get(url)
       .then(result => result.data)
       .then((data) => {
-        console.log(data);
-        const title = data.articleResources[0].title;
-        return title;
+        const article = data.articleResources[0];
+        return article;
       });
   }
 }
