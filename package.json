@@ -2,10 +2,9 @@
   "name": "voice-ux-endpoint",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "start-server": "nodemon server-copy.js"
+    "start": "node server.js",
+    "start-server": "node server-copy.js"
   },
   "author": "",
   "license": "ISC",
