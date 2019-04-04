@@ -26,5 +26,18 @@ class controller {
         return article;
       });
   }
+
+  getWishlist() {
+    const url = 'https://app.theculturetrip.com/cultureTrip-api/v2/users/me/bookmarks/'
+    return axios.default.get(url, { headers: { authorisation: 'bearer TestUserAccessToken'}})
+      .then(result => result.data)
+      .then(data => {
+        const wishlist = data.data;
+
+        const wishlistLength = wishlist.length;
+        const randomIndex = (Math.floor(Math.random() * Math.floor(wishlistLength)));
+        return wishlist[randomIndex];
+      });
+  }
 }
 exports.controller = controller;
