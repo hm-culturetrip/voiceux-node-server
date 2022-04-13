@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "actions-on-google": "^2.6.0",
-    "async": "^2.6.2",
+    "async": "^3.2.2",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
